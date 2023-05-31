@@ -1,0 +1,5 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^mail\.samanquran\.com$
+RewriteRule ^/?$ "https\:\/\/srv23\.niagahoster\.com\:2096\/" [R=301,L]
+
